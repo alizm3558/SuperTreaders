@@ -7,6 +7,7 @@ SuperTraders, kullanıcıları hisse senedi ticaretine yönelik terminoloji konu
 - Kullanıcı portföy yönetimi
 - Hisse senedi alım ve satım işlemleri
 - İşlem geçmişi takibi
+  
 Teknolojiler
 Java 11
 Spring Boot
