@@ -9,12 +9,8 @@ SuperTraders, kullanıcıları hisse senedi ticaretine yönelik terminoloji konu
 - İşlem geçmişi takibi
   
 Teknolojiler
-Java 11
-Spring Boot
-Spring Data JPA
-PostgreSQL
-Docker
-Kurulum ve Çalıştırma
-Gereksinimler
-Java 11+
-Maven
+- Java 11
+- Spring Boot
+- Spring Data JPA
+- PostgreSQL
+
