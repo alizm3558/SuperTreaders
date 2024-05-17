@@ -1,6 +1,8 @@
 package com.eva.SuperTraders.domain.dto;
 
 import com.eva.SuperTraders.domain.entity.User;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.*;
 
 import java.util.Date;
@@ -16,7 +18,7 @@ public class TransactionHistoryDto {
 
     private User user;
 
-    private String type; // AL/SAT
+    private String type;
 
     private int quantity;
 
@@ -36,5 +38,6 @@ public class TransactionHistoryDto {
 
     private Date deleteDate;
 
+    @JsonIgnore
     private Boolean isDeleted;
 }

@@ -1,8 +1,14 @@
 package com.eva.SuperTraders.domain.dto;
 
+import com.eva.SuperTraders.domain.entity.PortfolioItem;
+import jakarta.persistence.CascadeType;
+import jakarta.persistence.Column;
+import jakarta.persistence.OneToMany;
 import lombok.*;
 
 import java.util.Date;
+import java.util.HashSet;
+import java.util.Set;
 
 @Getter
 @Setter
@@ -17,17 +23,5 @@ public class UserDto {
 
     private String password;
 
-    private Date createDate;
-
-    private Long createUserId;
-
-    private Date updateDate;
-
-    private Long updateUserId;
-
-    private Long deleteUserId;
-
-    private Date deleteDate;
-
-    private Boolean isDeleted;
+    private Set<PortfolioItem> portfolio = new HashSet<>();
 }
